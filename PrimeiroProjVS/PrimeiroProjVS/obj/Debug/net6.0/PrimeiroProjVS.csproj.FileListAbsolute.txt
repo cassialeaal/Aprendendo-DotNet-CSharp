@@ -1,0 +1,15 @@
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\PrimeiroProjVS.exe
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\PrimeiroProjVS.deps.json
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\PrimeiroProjVS.runtimeconfig.json
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\PrimeiroProjVS.dll
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\ref\PrimeiroProjVS.dll
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\bin\Debug\net6.0\PrimeiroProjVS.pdb
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.csproj.AssemblyReference.cache
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.AssemblyInfoInputs.cache
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.AssemblyInfo.cs
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.csproj.CoreCompileInputs.cache
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.dll
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\ref\PrimeiroProjVS.dll
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.pdb
+C:\Users\Cassia Leal\source\repos\PrimeiroProjVS\PrimeiroProjVS\obj\Debug\net6.0\PrimeiroProjVS.genruntimeconfig.cache
