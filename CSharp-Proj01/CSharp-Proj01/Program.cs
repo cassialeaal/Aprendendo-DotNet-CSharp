@@ -9,9 +9,13 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            /*var pessoa1 = (Pessoas)0;
+            if (args is null)
+            {
+                throw new ArgumentNullException(nameof(args));
+            }
+            var pessoa1 = (Pessoas)0;
             Pessoas pessoa2 = Pessoas.Cassia;
-            Pessoas pessoa3 = (Pessoas)3; */
+            Pessoas pessoa3 = (Pessoas)3;
 
             Animal? animal = new();
 
@@ -31,9 +35,12 @@ namespace CSharp
             person2.Idade = 26;
             person2.Estado = "PE";
 
-            
+            //var classe = new Classe();
+            //var classe2 = new Segundo.Classe();
+
+            Console.WriteLine(pessoa3);
 
             
-        }
+        } 
     }
 }

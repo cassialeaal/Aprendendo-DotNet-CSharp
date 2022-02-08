@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Proj01
+namespace Enum
 {
-    internal class Class1
+    enum Pessoas
     {
+        Cassia,
+        Gustavo,
+        Duque,
+        Roberto
     }
 }

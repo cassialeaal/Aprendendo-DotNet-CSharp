@@ -1,0 +1,15 @@
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.csproj.AssemblyReference.cache
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.AssemblyInfoInputs.cache
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.AssemblyInfo.cs
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.csproj.CoreCompileInputs.cache
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\CSharp-Proj01.exe
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\CSharp-Proj01.deps.json
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\CSharp-Proj01.runtimeconfig.json
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\CSharp-Proj01.dll
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\ref\CSharp-Proj01.dll
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\bin\Debug\net6.0\CSharp-Proj01.pdb
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.dll
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\ref\CSharp-Proj01.dll
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.pdb
+C:\Users\Cassia Leal\Documents\DIO-DesafioGitHub\CSharp-Proj01\CSharp-Proj01\obj\Debug\net6.0\CSharp-Proj01.genruntimeconfig.cache
