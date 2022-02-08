@@ -1,37 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
+using CSharp;
 
 namespace CSharp
 {
-    
-//Caso o using System não seja declarado no inicio do código
-//e queremos usar o Console, podemos declarar o System no namespace em questão.
-//Abaixo temos comentando o exemplo de como declará-lo neste caso.
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Pessoa person = new Pessoa();
 
-    //System.Console
+            person.Nome = "Cassia";
+            person.Idade = 24;
+            person.Estado = "PE";
 
-//Se o System já foi declarado no início do código, apenas adicionar o comando abaixo
+            var person2 = new Pessoa();
 
-    //Console
-    class Namespace
+            person2.Nome = "Gustavo";
+            person2.Idade = 26;
+            person2.Estado = "PE";
+
+            Console.WriteLine("Hello World!");
+        }
+    }
 }
-
-//O namespace serve para separar as classes, e não é possível ter duas classes iguais
-//dentro de um único namespace
-//A estrutura abaixo não é válida e dará um erro pois a Classe já existe anteriormente:
-//namespace Primeiro
-//{
-//  class Classe
-//  {
-//
-//  }
-//
-//  class Classe
-//  {
-//
-//  }
-//}
