@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\PrimeiroProjVS\\PrimeiroProjVS\\PrimeiroProjVS.csproj",
-      "projectName": "PrimeiroProjVS",
-      "projectPath": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\PrimeiroProjVS\\PrimeiroProjVS\\PrimeiroProjVS.csproj",
+      "projectUniqueName": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\CSharp-Proj01\\CSharp-Proj01\\CSharp-Proj01.csproj",
+      "projectName": "CSharp-Proj01",
+      "projectPath": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\CSharp-Proj01\\CSharp-Proj01\\CSharp-Proj01.csproj",
       "packagesPath": "C:\\Users\\Cassia Leal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\PrimeiroProjVS\\PrimeiroProjVS\\obj\\",
+      "outputPath": "C:\\Users\\Cassia Leal\\Documents\\DIO-DesafioGitHub\\CSharp-Proj01\\CSharp-Proj01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cassia Leal\\AppData\\Roaming\\NuGet\\NuGet.Config",
