@@ -1,0 +1,15 @@
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\pratica01.exe
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\pratica01.deps.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\pratica01.runtimeconfig.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\pratica01.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\ref\pratica01.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\bin\Debug\net6.0\pratica01.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.csproj.AssemblyReference.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.AssemblyInfoInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.AssemblyInfo.cs
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.csproj.CoreCompileInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\ref\pratica01.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\DotNet\pratica01\obj\Debug\net6.0\pratica01.genruntimeconfig.cache
