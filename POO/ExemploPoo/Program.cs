@@ -7,9 +7,13 @@ namespace ExemploPoo
     {
         static void Main(string[] args)
         {
-            Corrente c = new Corrente();
-            c.Creditar(100);
-            c.ExibirSaldo();
+            Computador comp = new Computador();
+            System.Console.WriteLine(comp.ToString());
+        //---------------------------------------------------------------
+
+            // Corrente c = new Corrente();
+            // c.Creditar(100);
+            // c.ExibirSaldo();
 
         //---------------------------------------------------------------
 
