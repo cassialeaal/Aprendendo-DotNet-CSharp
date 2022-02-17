@@ -4,8 +4,8 @@ namespace ExemploConstrutores.Models
     {
         private static Log? _log;
 
-        public string PropriedadeLog { get; set; }
-        private Log()
+        public string? PropriedadeLog { get; set; }
+        private Log ()
         {
             
         }

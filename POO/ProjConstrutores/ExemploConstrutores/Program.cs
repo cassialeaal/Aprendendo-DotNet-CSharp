@@ -7,8 +7,17 @@ namespace ExemploConstrutores
     {
         static void Main (string[] args)
         {
-            Aluno a1 = new Aluno("Cassia", "Roberta", "Dev");
-            a1.Apresentar();
+            Data data = new Data();
+            //data.SetMes(2); // mes válido
+            //data.SetMes(15); // mes inválido
+            data.Mes = 12;
+            //System.Console.WriteLine(data.Mes);
+
+            data.ApresentarMes();
+        //---------------------------------------------------
+
+            // Aluno a1 = new Aluno("Cassia", "Roberta", "Dev");
+            // a1.Apresentar();
         //---------------------------------------------------
             // Log log = Log.GetInstance();
 
