@@ -1,4 +1,5 @@
 ﻿using System;
+using ExemploPoo.Interfaces;
 using ExemploPoo.Models;
 
 namespace ExemploPoo
@@ -7,8 +8,16 @@ namespace ExemploPoo
     {
         static void Main(string[] args)
         {
-            Computador comp = new Computador();
-            System.Console.WriteLine(comp.ToString());
+            ICalculadora calc = new Calculadora();
+            System.Console.WriteLine(calc.Somar(10,20));
+            
+
+        
+        //---------------------------------------------------------------
+
+            // Computador comp = new Computador();
+            // System.Console.WriteLine(comp.ToString());
+
         //---------------------------------------------------------------
 
             // Corrente c = new Corrente();
@@ -22,6 +31,7 @@ namespace ExemploPoo
             // System.Console.WriteLine($"Resultado segunda soma: " + calc.Somar(10, 10, 20));
         
         //---------------------------------------------------------------
+           
             // Aluno p1 = new Aluno();
             // p1.Nota = 10;
             // p1.Nome = "Cassia";
@@ -33,7 +43,6 @@ namespace ExemploPoo
             // p2.Nome = "Roberta";
             // p2.Idade = 26;
             // p2.Apresentar();
-
 
         //---------------------------------------------------------------
 
