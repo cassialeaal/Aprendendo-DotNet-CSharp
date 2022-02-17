@@ -1,4 +1,5 @@
 using System.IO;
+using System.Collections.Generic;
 
 namespace ExemploPoo.Helper
 {
@@ -33,6 +34,46 @@ namespace ExemploPoo.Helper
         public void ApagarDiretorio(string caminho, bool apagarArquivos)
         {
             Directory.Delete(caminho, apagarArquivos);
+        }
+
+        public void CriarArquivoTexto (string caminho, string conteudo)
+        {
+            if (!File.Exists(caminho))
+            {
+                File.WriteAllText(caminho, conteudo);
+            }
+        }
+
+        internal void AdicionarTexto(string caminhoArquivo, List<string> listaStringContinuacao)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CriarArquivoTextoStream(string caminho, List<string> conteudo)
+        {
+            using (var stream = File.CreateText(caminho))
+            {
+                foreach(var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                }
+            }
+        }
+
+        public void AdicionarTexto(string caminho, string conteudo)
+        {
+            File.AppendAllText(caminho, conteudo);
+        }
+
+          public void AdicionarTextoStream(string caminho, List<string> conteudo)
+        {
+            using (var stream = File.AppendText(caminho))
+            {
+                foreach(var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                }
+            }
         }
     }
 }
