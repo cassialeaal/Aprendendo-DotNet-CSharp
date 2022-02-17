@@ -25,8 +25,10 @@ namespace ExemploPoo
             //helper.CriarDiretorio(caminhoPathCombine);
             //helper.ApagarDiretorio(caminhoPathCombine, true);
             //helper.CriarArquivoTexto(caminhoArquivo, "Olá! teste de escrita de arquivo. By Cassia Leal");
-            helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
-            helper.AdicionarTextoStream(caminhoArquivo, listaStringContinua);
+            //helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+            //helper.AdicionarTextoStream(caminhoArquivo, listaStringContinua);
+            helper.LerArquivoStream(caminhoArquivo);
+
         //---------------------------------------------------------------
             // ICalculadora calc = new Calculadora();
             // System.Console.WriteLine(calc.Somar(10,20));
