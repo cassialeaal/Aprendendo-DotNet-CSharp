@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using ExemploPoo.Helper;
 using ExemploPoo.Interfaces;
 using ExemploPoo.Models;
@@ -10,10 +11,14 @@ namespace ExemploPoo
         static void Main(string[] args)
         {
             var caminho = "C:\\Users\\Cassia Leal\\Documents\\BootcampDIO.NET\\TrabalhandoComArquivos";
-
+            var caminhoPathCombine = Path.Combine(caminho, "pasta teste 1");
+ 
             FileHelper helper = new FileHelper();
             //helper.ListarDiretorios(caminho);
-            helper.ListarArquivosDiretorios(caminho);
+            //helper.ListarArquivosDiretorios(caminho);
+            //System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
+            //helper.CriarDiretorio(caminhoPathCombine);
+            helper.ApagarDiretorio(caminhoPathCombine, true);
         
         //---------------------------------------------------------------
             // ICalculadora calc = new Calculadora();
