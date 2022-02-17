@@ -8,8 +8,7 @@ namespace ExemploConstrutores
         static void Main (string[] args)
         {
             const double pi = 3.14;
-            System.Console.WriteLine(pi);
-            
+            System.Console.WriteLine(pi);            
 
         //---------------------------------------------------
             // Data data = new Data();
