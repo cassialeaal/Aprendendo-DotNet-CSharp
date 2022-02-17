@@ -14,10 +14,13 @@ namespace ExemploPoo
             var caminho = "C:\\Users\\Cassia Leal\\Documents\\BootcampDIO.NET\\TrabalhandoComArquivos";
             var caminhoPathCombine = Path.Combine(caminho, "pasta teste 1");
             var caminhoArquivo = Path.Combine(caminho, "arquivo-teste-stream.txt");
-           
+            var novoCaminhoArquivo = Path.Combine(caminho, "Pasta teste 2", "arquivo-teste-stream.txt");
+            var caminhoArquivoTeste = Path.Combine(caminho, "arquivo-teste.txt");
+            var caminhoArquivoTesteCopia = Path.Combine(caminho, "arquivo-teste-backup.txt");
+
             var listaString = new List<string> {"Linha 1", "Linha 2", "Linha 3"};
             var listaStringContinua = new List<string> {"Linha 4", "Linha 5", "Linha 6"};
-
+            
             FileHelper helper = new FileHelper();
             //helper.ListarDiretorios(caminho);
             //helper.ListarArquivosDiretorios(caminho);
@@ -27,7 +30,10 @@ namespace ExemploPoo
             //helper.CriarArquivoTexto(caminhoArquivo, "Olá! teste de escrita de arquivo. By Cassia Leal");
             //helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
             //helper.AdicionarTextoStream(caminhoArquivo, listaStringContinua);
-            helper.LerArquivoStream(caminhoArquivo);
+            //helper.LerArquivoStream(caminhoArquivo);
+            //helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
+            //helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
+            helper.DeletarArquivo(caminhoArquivoTesteCopia);
 
         //---------------------------------------------------------------
             // ICalculadora calc = new Calculadora();
