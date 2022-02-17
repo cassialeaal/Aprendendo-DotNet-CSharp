@@ -1,0 +1,15 @@
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ExemploPoo.exe
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ExemploPoo.deps.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ExemploPoo.runtimeconfig.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ExemploPoo.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ref\ExemploPoo.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\bin\Debug\net6.0\ExemploPoo.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.csproj.AssemblyReference.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.AssemblyInfoInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.AssemblyInfo.cs
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.csproj.CoreCompileInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ref\ExemploPoo.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\POO\ExemploPoo\obj\Debug\net6.0\ExemploPoo.genruntimeconfig.cache
