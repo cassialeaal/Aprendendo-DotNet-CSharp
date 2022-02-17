@@ -5,10 +5,21 @@ namespace ExemploConstrutores
 {
     class Program
     {
+        public delegate void Operacao(int x, int y);
         static void Main (string[] args)
         {
-            const double pi = 3.14;
-            System.Console.WriteLine(pi);            
+            //Operacao op = Calculadora.Somar;
+            Operacao op = new Operacao(Calculadora.Somar);
+            op += Calculadora.Subtrair;
+            op.Invoke(20, 30);
+            //op (20,30;)
+            //Operacao op2 = Calculadora.Subtrair;
+            //op2(20,30);
+
+        //---------------------------------------------------
+
+            // const double pi = 3.14;
+            // System.Console.WriteLine(pi);            
 
         //---------------------------------------------------
             // Data data = new Data();
