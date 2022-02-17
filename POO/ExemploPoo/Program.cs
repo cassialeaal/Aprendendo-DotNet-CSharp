@@ -7,10 +7,15 @@ namespace ExemploPoo
     {
         static void Main(string[] args)
         {
-            Calculadora calc = new Calculadora();
-            System.Console.WriteLine($"Resultado primeira soma: " + calc.Somar(10, 10));
-            System.Console.WriteLine($"Resultado segunda soma: " + calc.Somar(10, 10, 20));
+            Corrente c = new Corrente();
+            c.Creditar(100);
+            c.ExibirSaldo();
 
+        //---------------------------------------------------------------
+
+            // Calculadora calc = new Calculadora();
+            // System.Console.WriteLine($"Resultado primeira soma: " + calc.Somar(10, 10));
+            // System.Console.WriteLine($"Resultado segunda soma: " + calc.Somar(10, 10, 20));
         
         //---------------------------------------------------------------
             // Aluno p1 = new Aluno();
