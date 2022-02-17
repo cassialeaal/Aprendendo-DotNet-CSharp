@@ -7,13 +7,18 @@ namespace ExemploConstrutores
     {
         static void Main (string[] args)
         {
-            Data data = new Data();
-            //data.SetMes(2); // mes válido
-            //data.SetMes(15); // mes inválido
-            data.Mes = 12;
-            //System.Console.WriteLine(data.Mes);
+            const double pi = 3.14;
+            System.Console.WriteLine(pi);
+            
 
-            data.ApresentarMes();
+        //---------------------------------------------------
+            // Data data = new Data();
+            // data.SetMes(2); // mes válido
+            // data.SetMes(15); // mes inválido
+            // data.Mes = 12;
+            // System.Console.WriteLine(data.Mes);
+
+            // data.ApresentarMes();
         //---------------------------------------------------
 
             // Aluno a1 = new Aluno("Cassia", "Roberta", "Dev");
