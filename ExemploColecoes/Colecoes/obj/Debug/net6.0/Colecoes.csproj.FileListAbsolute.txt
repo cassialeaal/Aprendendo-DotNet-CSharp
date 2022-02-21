@@ -1,0 +1,15 @@
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.exe
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.deps.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.runtimeconfig.json
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\ref\Colecoes.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.csproj.AssemblyReference.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfoInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfo.cs
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\ref\Colecoes.dll
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.pdb
+C:\Users\Cassia Leal\Documents\BootcampDIO.NET\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.genruntimeconfig.cache
