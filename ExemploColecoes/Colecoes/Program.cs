@@ -6,13 +6,31 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            int[] arrayInteiros = new int[3];
+            int[,] matriz = new int[4,2]    //declarando uma matriz
+            {                               //declarando os valores da matriz
+              { 8, 8},
+              { 10, 20},
+              { 50, 100},
+              { 90, 200}
+            };
 
-            arrayInteiros[0] = 10;
-            arrayInteiros[1] = 20;
-            arrayInteiros[2] = int.Parse("30"); //converte o valor dado de string para inteiro
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    System.Console.WriteLine(matriz[i,j]);   
+                }
+            }
+
+
+        //------------------------------------------------------------------------------------
+            //int[] arrayInteiros = new int[3];
             
-            arrayInteiros[3] = 30; // acessando posição inexistente (3)
+            // arrayInteiros[0] = 10;
+            // arrayInteiros[1] = 20;
+            // arrayInteiros[2] = int.Parse("30"); //converte o valor dado de string para inteiro
+            
+            // arrayInteiros[3] = 30; // acessando posição inexistente (3)
 
 
             // System.Console.WriteLine("Percorrendo o array pelo For");
