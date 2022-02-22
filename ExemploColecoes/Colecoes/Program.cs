@@ -12,6 +12,9 @@ namespace Colecoes
             int[] array = new int[5] {6, 3, 8, 1, 9};
             int[] arrayCopia = new int[10];
 
+            System.Console.WriteLine("Array Original");
+            op.ImprimirArray(array);
+
             System.Console.WriteLine("Array Antes da Copia");
             op.ImprimirArray(arrayCopia);
 
