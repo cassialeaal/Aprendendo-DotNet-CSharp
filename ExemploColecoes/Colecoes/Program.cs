@@ -5,7 +5,8 @@ namespace Colecoes
 {
     class Program
     {
-        static void Main(string[] args)
+        //usando classe Array para ordenar
+         static void Main(string[] args)
         {
             OperacoesArray op = new OperacoesArray();
             int[] array = new int[5] {6, 3, 8, 1, 9};
@@ -13,9 +14,22 @@ namespace Colecoes
             System.Console.WriteLine("Array Original");
             op.ImprimirArray(array);
 
-            op.OrdenarBubbleSort(ref array);
+            op.Ordenar(ref array);
             System.Console.WriteLine("Array Ordenado");
             op.ImprimirArray(array);
+
+        //------------------------------------------------------------------------------------
+        // static void Main(string[] args)
+        // {
+        //     OperacoesArray op = new OperacoesArray();
+        //     int[] array = new int[5] {6, 3, 8, 1, 9};
+
+        //     System.Console.WriteLine("Array Original");
+        //     op.ImprimirArray(array);
+
+        //     op.OrdenarBubbleSort(ref array);
+        //     System.Console.WriteLine("Array Ordenado");
+        //     op.ImprimirArray(array);
         //------------------------------------------------------------------------------------
             // int[,] matriz = new int[4,2]    //declarando uma matriz
             // {                               //declarando os valores da matriz
