@@ -17,3 +17,5 @@ DIFICULDADES: Para estudar neste dia eu estava sem meu computador, logo, precise
 16/02/2022 - Aula Programando com Orientação a Objetos em C#
 	PARTE 1 - Devido ao tamanho desta aula eu a dividi em 2 partes, na primeira parte foi dado conceitos e exemplos do que é Orientação a Objetos, o que é abstração, encapsulamento, herança e polimorfismo. Apesar de ter visto alguns desses conceitos em aulas anteriores, através dos exemplos dados nesta aula eu consegui de fato associar o conceito da prática. É muito bom perceber sua evolução no entendimento do assunto, mesmo que bem inicial é uma conquista.
 	PARTE 2 - Já no dia 17/02/2022, foi estudado Classes abstratas, Interfaces e Manipução de arquivos. Tudo foi bem tranquilo e consegui entender toda a aplicação dessas propriedades.
+	
+22/02/2022 - Desde a ultima data aqui registrada, aprendi muita coisa que não tive tempo para documentar aqui. Hoje estou vendo mais sobre arrayy, como manipulá-los, como ordená-los e muito mais. É muito prazeroso dar o comando $dotnet run e seu código rodar perfeitamente, apesar de entendender que erros também ensinam bastante.
