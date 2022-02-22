@@ -12,15 +12,29 @@ namespace Colecoes
             int[] array = new int[5] {6, 3, 8, 1, 9};
             int[] arrayCopia = new int[10];
 
-            System.Console.WriteLine("Array Original");
-            op.ImprimirArray(array);
+            int valorProcurado = 10;
+            bool existe = op.Existe(array, valorProcurado);
+            if (existe)
+            {
+                System.Console.WriteLine("Encontrei o valor: {0}", valorProcurado);
+            }
+            else
+            {
+                System.Console.WriteLine("Não encontrei o valor: {0}", valorProcurado);
+            }
+            // OperacoesArray op = new OperacoesArray();
+            // int[] array = new int[5] {6, 3, 8, 1, 9};
+            // int[] arrayCopia = new int[10];
 
-            System.Console.WriteLine("Array Antes da Copia");
-            op.ImprimirArray(arrayCopia);
+            // System.Console.WriteLine("Array Original");
+            // op.ImprimirArray(array);
 
-            op.Copiar(ref array, ref arrayCopia);
-            System.Console.WriteLine("Array após a copia");
-            op.ImprimirArray(arrayCopia);
+            // System.Console.WriteLine("Array Antes da Copia");
+            // op.ImprimirArray(arrayCopia);
+
+            // op.Copiar(ref array, ref arrayCopia);
+            // System.Console.WriteLine("Array após a copia");
+            // op.ImprimirArray(arrayCopia);
 
 
         //------------------------------------------------------------------------------------
