@@ -1,16 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 using Colecoes.Helper;
 
 namespace Colecoes
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            List<string> estados = new List<string>();
+            estados.Add("SP");
+            estados.Add("PE");
+            estados.Add("RJ");
+
+            System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
+            foreach (var item in estados)
+            {
+                System.Console.WriteLine(item);
+            }
+            for (int i = 0; i < estados.Count; i++)
+            {
+                System.Console.WriteLine($"Indice {i}, Valor: {estados[i]}");
+            }
         
+
         //------------------------------------------------------------------------------------
 
         //usando classe Array para ordenar
-        //  static void Main(string[] args)
-        // {
         //     OperacoesArray op = new OperacoesArray();
 
         //     int[] array = new int[5] {6, 3, 8, 1, 9};
