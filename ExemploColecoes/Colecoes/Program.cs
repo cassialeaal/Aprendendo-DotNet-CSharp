@@ -8,15 +8,23 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            int[] arrayNumeros= new int[7] { 13, 1, 4, 2, 8, 15, 19};
+            int[] arrayNumeros= new int[7] { 13, 1, 4, 2, 1, 15, 13};
 
             var minimo = arrayNumeros.Min();
             var maximo = arrayNumeros.Max();
             var medio = arrayNumeros.Average();
+            var soma = arrayNumeros.Sum();
+            var arrayUnico = arrayNumeros.Distinct().ToArray();
 
             System.Console.WriteLine($"Mínimo: {minimo}");
             System.Console.WriteLine($"Máximo: {maximo}");
             System.Console.WriteLine($"Médio: {medio}");
+            System.Console.WriteLine($"Soma: {soma}");
+            System.Console.WriteLine($"Array original: {string.Join(", ", arrayNumeros)}");
+            System.Console.WriteLine($"Array distinto: {string.Join(", ", arrayUnico)}");
+
+
+
 
         //------------------------------------------------------------------------------------
             // //Query Sintax
