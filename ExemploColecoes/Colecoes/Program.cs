@@ -8,19 +8,28 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            int[] arrayNumeros= new int[5] { 1, 4, 8, 15, 19};
+            int[] arrayNumeros= new int[7] { 13, 1, 4, 2, 8, 15, 19};
 
-            //Query Sintax
-            var numerosParesQuery = 
-                from num in arrayNumeros
-                where num % 2 ==0
-                orderby num
-                select num;
+            var minimo = arrayNumeros.Min();
+            var maximo = arrayNumeros.Max();
+            var medio = arrayNumeros.Average();
 
-            var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
+            System.Console.WriteLine($"Mínimo: {minimo}");
+            System.Console.WriteLine($"Máximo: {maximo}");
+            System.Console.WriteLine($"Médio: {medio}");
 
-            System.Console.WriteLine("Numeros pares query: " + string.Join(", ", numerosParesQuery));
-            System.Console.WriteLine("Numeros pares metodo: " + string.Join(", ", numerosParesMetodo));
+        //------------------------------------------------------------------------------------
+            // //Query Sintax
+            // var numerosParesQuery = 
+            //     from num in arrayNumeros
+            //     where num % 2 ==0
+            //     orderby num
+            //     select num;
+
+            // var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
+
+            // System.Console.WriteLine("Numeros pares query: " + string.Join(", ", numerosParesQuery));
+            // System.Console.WriteLine("Numeros pares metodo: " + string.Join(", ", numerosParesMetodo));
 
         //------------------------------------------------------------------------------------
 
