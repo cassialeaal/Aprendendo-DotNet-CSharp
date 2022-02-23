@@ -16,7 +16,8 @@ namespace Colecoes
             System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
             opLista.ImprimirListaString(estados);
 
-            estados.AddRange(estadosArray);
+            //estados.AddRange(estadosArray);
+            estados.Insert(1, "AL");
             System.Console.WriteLine("Lista completa:");
             opLista.ImprimirListaString(estados);
 
