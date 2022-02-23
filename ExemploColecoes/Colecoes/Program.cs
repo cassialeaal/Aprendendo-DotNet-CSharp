@@ -16,18 +16,27 @@ namespace Colecoes
 
             foreach (KeyValuePair<string, string> item in estados)
             {
-                System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
+                //System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
             }
 
-            string valorProcurado = "PE";
+            string valorProcurado = "SP";
 
-            System.Console.WriteLine($"Removendo o valor: {valorProcurado}");
-            estados.Remove(valorProcurado);
-
-              foreach (KeyValuePair<string, string> item in estados)
+            if (estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
             {
-                System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
+                System.Console.WriteLine(estadoEncontrado);
             }
+            else
+            {
+                System.Console.WriteLine($"Chave {valorProcurado} não existe no dicionário.");
+            }
+
+            // System.Console.WriteLine($"Removendo o valor: {valorProcurado}");
+            // estados.Remove(valorProcurado);
+
+            //   foreach (KeyValuePair<string, string> item in estados)
+            // {
+            //     System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
+            // }
 
             // string valorProcurado = "PE";
             // System.Console.WriteLine("Valor original:");
