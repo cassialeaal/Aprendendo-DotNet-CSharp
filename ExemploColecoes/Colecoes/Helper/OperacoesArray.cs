@@ -40,5 +40,9 @@ namespace Colecoes.Helper
         {
             return Array.Exists(array, elemento => elemento == valor);
         }
+        public bool TodosMaiorQue(int[] array, int valor)
+        {
+            return Array.TrueForAll(array, elemento => elemento > valor);
+        }
     }
 }
