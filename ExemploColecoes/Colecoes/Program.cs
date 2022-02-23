@@ -14,7 +14,7 @@ namespace Colecoes
             fila.Enqueue("Alagoas");
             fila.Enqueue("Paraíba");
             fila.Enqueue("Ceará");
-            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+            System.Console.WriteLine($"Nomes na fila: {fila.Count}");
 
             while (fila.Count > 0)
             {
@@ -22,7 +22,7 @@ namespace Colecoes
                 System.Console.WriteLine($"{fila.Dequeue()} removido.");
             }
 
-            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+            System.Console.WriteLine($"Nomes na fila: {fila.Count}");
 
 
 
