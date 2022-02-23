@@ -8,18 +8,39 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            OperacoesLista opLista = new OperacoesLista();
-            List<string> estados = new List<string> {"RN", "PE", "BA"};
-            string[] estadosArray = new string[2] {"PB", "CE"};
+            Queue<string> fila = new Queue<string>();
+
+            fila.Enqueue("Pernambuco");
+            fila.Enqueue("Alagoas");
+            fila.Enqueue("Paraíba");
+            fila.Enqueue("Ceará");
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            while (fila.Count > 0)
+            {
+                System.Console.WriteLine($"Vez de: {fila.Peek()}");
+                System.Console.WriteLine($"{fila.Dequeue()} removido.");
+            }
+
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+
+
+
+        //------------------------------------------------------------------------------------
+
+            // OperacoesLista opLista = new OperacoesLista();
+            // List<string> estados = new List<string> {"RN", "PE", "BA"};
+            // string[] estadosArray = new string[2] {"PB", "CE"};
 
             
-            System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
-            opLista.ImprimirListaString(estados);
+            // System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
+            // opLista.ImprimirListaString(estados);
 
-            //estados.AddRange(estadosArray);
-            estados.Insert(1, "AL");
-            System.Console.WriteLine("Lista completa:");
-            opLista.ImprimirListaString(estados);
+            // //estados.AddRange(estadosArray);
+            // estados.Insert(1, "AL");
+            // System.Console.WriteLine("Lista completa:");
+            // opLista.ImprimirListaString(estados);
 
             
         //------------------------------------------------------------------------------------
