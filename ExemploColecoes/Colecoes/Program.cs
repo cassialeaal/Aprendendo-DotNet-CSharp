@@ -8,20 +8,29 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
+            OperacoesLista opLista = new OperacoesLista();
+
             List<string> estados = new List<string>();
             estados.Add("SP");
             estados.Add("PE");
             estados.Add("RJ");
 
             System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
-            foreach (var item in estados)
-            {
-                System.Console.WriteLine(item);
-            }
-            for (int i = 0; i < estados.Count; i++)
-            {
-                System.Console.WriteLine($"Indice {i}, Valor: {estados[i]}");
-            }
+
+            opLista.ImprimirListaString(estados);
+            
+            System.Console.WriteLine("Removendo um elemento da lista");
+            estados.Remove("SP");
+            opLista.ImprimirListaString(estados);
+
+            // foreach (var item in estados)
+            // {
+            //     System.Console.WriteLine(item);
+            // }
+            // for (int i = 0; i < estados.Count; i++)
+            // {
+            //     System.Console.WriteLine($"Indice {i}, Valor: {estados[i]}");
+            // }
         
 
         //------------------------------------------------------------------------------------
