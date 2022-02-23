@@ -8,27 +8,44 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> estados = new Dictionary<string, string>();
+            int[] arrayNumeros= new int[5] { 1, 4, 8, 15, 19};
 
-            estados.Add("PE", "Pernambuco");
-            estados.Add("PB", "Paraíba");
-            estados.Add("AL", "Alagoas");
+            //Query Sintax
+            var numerosParesQuery = 
+                from num in arrayNumeros
+                where num % 2 ==0
+                orderby num
+                select num;
 
-            foreach (KeyValuePair<string, string> item in estados)
-            {
-                //System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
-            }
+            var numerosParesMetodo = arrayNumeros.Where(x => x % 2 == 0).OrderBy(x => x).ToList();
 
-            string valorProcurado = "SP";
+            System.Console.WriteLine("Numeros pares query: " + string.Join(", ", numerosParesQuery));
+            System.Console.WriteLine("Numeros pares metodo: " + string.Join(", ", numerosParesMetodo));
 
-            if (estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
-            {
-                System.Console.WriteLine(estadoEncontrado);
-            }
-            else
-            {
-                System.Console.WriteLine($"Chave {valorProcurado} não existe no dicionário.");
-            }
+        //------------------------------------------------------------------------------------
+
+            // Dictionary<string, string> estados = new Dictionary<string, string>();
+
+            // estados.Add("PE", "Pernambuco");
+            // estados.Add("PB", "Paraíba");
+            // estados.Add("AL", "Alagoas");
+
+            // foreach (KeyValuePair<string, string> item in estados)
+            // {
+            //     //System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
+            // }
+
+            // string valorProcurado = "SP";
+
+            // if (estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
+            // {
+            //     System.Console.WriteLine(estadoEncontrado);
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine($"Chave {valorProcurado} não existe no dicionário.");
+            // }
+        //------------------------------------------------------------------------------------
 
             // System.Console.WriteLine($"Removendo o valor: {valorProcurado}");
             // estados.Remove(valorProcurado);
