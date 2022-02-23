@@ -5,14 +5,17 @@ namespace Colecoes
 {
     class Program
     {
-        //usando classe Array para ordenar
-         static void Main(string[] args)
-        {
-            OperacoesArray op = new OperacoesArray();
+        
+        //------------------------------------------------------------------------------------
 
-            int[] array = new int[5] {6, 3, 8, 1, 9};
-            int[] arrayCopia = new int[10];
-            string[] arrayString = op.ConverterParaArrayString(array);
+        //usando classe Array para ordenar
+        //  static void Main(string[] args)
+        // {
+        //     OperacoesArray op = new OperacoesArray();
+
+        //     int[] array = new int[5] {6, 3, 8, 1, 9};
+        //     int[] arrayCopia = new int[10];
+        //     string[] arrayString = op.ConverterParaArrayString(array);
             
         //------------------------------------------------------------------------------------
 
