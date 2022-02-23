@@ -14,13 +14,19 @@ namespace Colecoes
             estados.Add("PB", "Paraíba");
             estados.Add("AL", "Alagoas");
 
-            foreach (KeyValuePair<string, string> item in estados)
-            {
-                System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
-            }
+            // foreach (KeyValuePair<string, string> item in estados)
+            // {
+            //     System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
+            // }
 
             string valorProcurado = "PE";
-            System.Console.WriteLine($"O valor da chave procurada é: {estados[valorProcurado]}");
+            System.Console.WriteLine("Valor original:");
+            System.Console.WriteLine(estados[valorProcurado]);
+            //System.Console.WriteLine($"O valor da chave procurada é: {estados[valorProcurado]}");
+            estados[valorProcurado] = "PE - Teste atualização";
+
+            System.Console.WriteLine("Valor atualizado:");
+            System.Console.WriteLine(estados[valorProcurado]);
 
         //------------------------------------------------------------------------------------
 
