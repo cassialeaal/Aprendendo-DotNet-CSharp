@@ -19,6 +19,9 @@ namespace Colecoes
                 System.Console.WriteLine($"Chave: {item.Key} -- Valor: {item.Value}");
             }
 
+            string valorProcurado = "PE";
+            System.Console.WriteLine($"O valor da chave procurada é: {estados[valorProcurado]}");
+
         //------------------------------------------------------------------------------------
 
             // Stack<string> pilhaLivros = new Stack<string>();
