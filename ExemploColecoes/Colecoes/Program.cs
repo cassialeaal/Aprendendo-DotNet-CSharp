@@ -8,24 +8,37 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            Queue<string> fila = new Queue<string>();
+            Stack<string> pilhaLivros = new Stack<string>();
 
-            fila.Enqueue("Pernambuco");
-            fila.Enqueue("Alagoas");
-            fila.Enqueue("Paraíba");
-            fila.Enqueue("Ceará");
-            System.Console.WriteLine($"Nomes na fila: {fila.Count}");
+            pilhaLivros.Push(".NET");
+            pilhaLivros.Push("DDD");
+            pilhaLivros.Push("Codigo limpo");
 
-            while (fila.Count > 0)
+            System.Console.WriteLine($"Livros para leitura: {pilhaLivros.Count}");
+            while (pilhaLivros.Count > 0)
             {
-                System.Console.WriteLine($"Vez de: {fila.Peek()}");
-                System.Console.WriteLine($"{fila.Dequeue()} removido.");
+                System.Console.WriteLine($"Próximo Livro para leitura: {pilhaLivros.Peek()}");
+                System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso.");
             }
+            
+            System.Console.WriteLine($"Livros para leitura: {pilhaLivros.Count}");
 
-            System.Console.WriteLine($"Nomes na fila: {fila.Count}");
+        //------------------------------------------------------------------------------------
+            // Queue<string> fila = new Queue<string>();
 
+            // fila.Enqueue("Pernambuco");
+            // fila.Enqueue("Alagoas");
+            // fila.Enqueue("Paraíba");
+            // fila.Enqueue("Ceará");
+            // System.Console.WriteLine($"Nomes na fila: {fila.Count}");
 
+            // while (fila.Count > 0)
+            // {
+            //     System.Console.WriteLine($"Vez de: {fila.Peek()}");
+            //     System.Console.WriteLine($"{fila.Dequeue()} removido.");
+            // }
 
+            // System.Console.WriteLine($"Nomes na fila: {fila.Count}");
 
         //------------------------------------------------------------------------------------
 
