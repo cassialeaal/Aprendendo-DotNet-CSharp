@@ -9,19 +9,32 @@ namespace Colecoes
         static void Main(string[] args)
         {
             OperacoesLista opLista = new OperacoesLista();
+            List<string> estados = new List<string> {"RN", "PE", "BA"};
+            string[] estadosArray = new string[2] {"PB", "CE"};
 
-            List<string> estados = new List<string>();
-            estados.Add("SP");
-            estados.Add("PE");
-            estados.Add("RJ");
-
-            System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
-
-            opLista.ImprimirListaString(estados);
             
-            System.Console.WriteLine("Removendo um elemento da lista");
-            estados.Remove("SP");
+            System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
             opLista.ImprimirListaString(estados);
+
+            estados.AddRange(estadosArray);
+            System.Console.WriteLine("Lista completa:");
+            opLista.ImprimirListaString(estados);
+
+            
+        //------------------------------------------------------------------------------------
+
+            // estados.Add("SP");
+            // estados.Add("PE");
+            // estados.Add("RJ");
+
+            // System.Console.WriteLine($"Quantidade de elementos da lista: {estados.Count}");
+
+            // opLista.ImprimirListaString(estados);
+            
+            // System.Console.WriteLine("Removendo um elemento da lista");
+            // estados.Remove("SP");
+            // opLista.ImprimirListaString(estados);
+        //------------------------------------------------------------------------------------
 
             // foreach (var item in estados)
             // {
