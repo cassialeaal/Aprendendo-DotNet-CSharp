@@ -13,18 +13,30 @@ namespace Colecoes
             int[] array = new int[5] {6, 3, 8, 1, 9};
             int[] arrayCopia = new int[10];
 
-            int valorProcurado = 5;
-            int valorAchado = op.ObterValor(array, valorProcurado);
+            int valorProcurado = 6;
 
-            if (valorAchado > 0)
+            int indice = op.ObterIndice(array, valorProcurado);
+
+            if (indice > -1)
             {
-                System.Console.WriteLine("Encontrei o valor");
+                System.Console.WriteLine("O indice do elemento {0} é: {1}", valorProcurado, indice);
             }
             else
             {
-                System.Console.WriteLine("Não encontrei o valor");
+                System.Console.WriteLine("Nao encontramos este elemento");
             }
+        //------------------------------------------------------------------------------------
 
+            // int valorAchado = op.ObterValor(array, valorProcurado);
+
+            // if (valorAchado > 0)
+            // {
+            //     System.Console.WriteLine("Encontrei o valor");
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Não encontrei o valor");
+            // }
             
         //------------------------------------------------------------------------------------
             //bool todosMaiorQue = op.TodosMaiorQue(array, valorProcurado);

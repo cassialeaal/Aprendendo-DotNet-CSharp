@@ -48,5 +48,9 @@ namespace Colecoes.Helper
         {
             return Array.Find(array, elemento => elemento == valor);
         }
+        public int ObterIndice(int[] array, int valor)
+        {
+            return Array.IndexOf(array, valor);
+        }
     }
 }
